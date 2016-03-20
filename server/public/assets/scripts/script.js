@@ -51,9 +51,9 @@ function appendDom(response){
       var $el = $('.task').children().first();
       $el.append('<h2>' + "Task content: " + task.task_name + '</h2>');
       $el.append('<h2>' + task.task_status + '</h2>');
-      $('.'+task.task_name).addClass("highlight");
       $el.append('<button class = "complete"> complete </button>');
       $el.append('<button class = "delete"> delete </button>');
+      $('.'+task.task_name).addClass("highlight");
       var eachTask = task.task_name;
       $el.find('.complete').data("taskCompleted", eachTask);
       $el.find('.delete').data("taskDeleted", eachTask);

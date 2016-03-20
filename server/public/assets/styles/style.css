@@ -1,20 +1,19 @@
 body {
-  margin: 10px 200px;
+  margin: 10px 300px;
 }
 
 .fade {
-  background-color:blue;
+  background-color:#AEADB6;
   margin: 20px 100px;
-  border: 1px solid black;
   border-radius: 10px;
   font-size: 10px;
-  opacity: 0.3;
+  opacity: 0.5;
   color:white;
 }
 
 .highlight {
-  background-color: blue;
-  margin: 20px 100px;
+  background-color: #0CA8FC;
+  margin: 30px 100px;
   border: 1px solid black;
   border-radius: 10px;
   font-size: 10px;
@@ -29,12 +28,28 @@ body {
 
 form {
   background: pink;
-  width: 800px;
-  padding: 30px;
+  width: 600px;
+  height:150px;
+  padding: 40px;
   margin: 30px auto;
   font-family: fantasy;
   text-align: center;
   border-radius:10px;
   font-size: 30px;
+}
 
+.delete {
+  float: right;
+}
+
+.complete {
+  float: left;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding:10px;
+  margin:20px;
 }
